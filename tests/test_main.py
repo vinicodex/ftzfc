@@ -1,7 +1,4 @@
-import pytest
-from httpx import AsyncClient
 from fastapi import status
-from src.main import app
 
 
 def test_read_root(client):
